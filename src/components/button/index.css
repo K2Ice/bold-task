@@ -1,0 +1,16 @@
+.button {
+  padding: 2rem;
+  background-color: #ed4c5c;
+  border-radius: 6px;
+  border: none;
+}
+
+.button:hover {
+  color: #ed4c5c !important;
+  outline: 1px solid #ed4c5c;
+  background-color: #fff;
+}
+
+.button:active {
+  scale: 0.9;
+}

@@ -1,3 +1,35 @@
 .contact {
-  height: 30rem;
+  padding: 10rem 0;
+}
+.contact .container {
+  max-width: 111rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contact .container .content {
+  max-width: 44.4rem;
+  width: 100%;
+}
+.contact .container .form {
+  max-width: 50.4rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .container .form .formRow {
+  display: flex;
+  gap: 2rem;
+}
+
+.contact .container .form input {
+  margin-top: 0;
+}
+
+.contact .container .content > p {
+  margin-top: 6rem;
 }
